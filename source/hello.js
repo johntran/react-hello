@@ -1,3 +1,5 @@
+'use strict';
+
 const helloFactory = function ({ React }) {
   const {
     string,

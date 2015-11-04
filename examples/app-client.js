@@ -1,6 +1,8 @@
 /*global React */
-
+'use strict';
+/*eslint-disable no-undef*/
 import helloFactory from '../source/hello';
+import button from '../source/button';
 
 /*eslint-disable no-unused-vars*/
 const Hello = helloFactory({ React });
@@ -23,7 +25,7 @@ const actions = {
 };
 
 render = function () {
-  React.render(
+  ReactDOM.render(
     <Hello
       word={ word }
       mode={ mode }

@@ -16,8 +16,9 @@ app.get('/', function (req, res) {
       </head>
       <body>
         <div id="content"></div>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react.js"></script>
+        <div id="root"></div>
+        <script src="https://fb.me/react-0.14.2.js"></script>
+        <script src="https://fb.me/react-dom-0.14.2.js"></script>
         <script src="/app-client.js"></script>
       </body>
     </html>
